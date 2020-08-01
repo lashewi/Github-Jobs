@@ -1,6 +1,10 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import useFetchJobs from './useFetchJobs'
+import { Container } from 'react-bootstrap'
+
+// import Job from './Job'
+// import JobsPagination from './JobsPagination';
+// import SearchForm from './SearchForm';
 
 function App() {
   return (
